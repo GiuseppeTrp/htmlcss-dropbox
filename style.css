@@ -5,6 +5,8 @@
 }
 
 
+
+
 header{
     width: 100%;
     border: 1px solid black;
@@ -13,19 +15,30 @@ header{
 }
 
 header nav{
-    width: 100%;
+    gap: 12px;
     display: flex;
 }
 
 header nav ul{
     display: flex;
-    flex-direction: row;
     align-items: center;
     list-style-type: none;
     justify-content: space-between;
     width: 100%;
 }
 
+
+main{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    gap: 60px;
+    justify-content: center;
+    
+
+}
 
 
 
@@ -34,11 +47,11 @@ header nav ul{
 
 .section {
     background-color: rgb(78, 136, 217);
-    min-height: 300px;
     padding:  100px;
     border: 1px solid black;
     display: flex;
-     min-height: 100px;
+    margin-left: 100px;
+   
     
 }
 
@@ -58,3 +71,56 @@ header nav ul{
     background-size: contain;
 }
 
+.container{
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+   
+
+
+
+}
+
+.schema{
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+     ;
+
+}
+
+.column{
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+.section-middle{
+   
+    padding:  100px;
+    border: 1px solid black;
+    display: flex;
+    margin-left: 100px;
+}
+
+.uno-middle{
+    background-image: url(img/partner.png);
+    min-width: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.due-middle{
+   
+    display: flex;
+    border: 1px dashed black;
+}
+
+
+.schema-2, .schema-3{
+    display: flex;
+    
+}
