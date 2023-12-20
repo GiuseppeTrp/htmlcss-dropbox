@@ -3,177 +3,176 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
+/* reset */
 
 body {
- 
-
-    font-family: 'Lucida Sans', sans-serif;
-    display: flex;
-    height: 100vh;
-
-    flex-direction: column;
-    
+    font-family: 'Open Sans', sans-serif;
 }
 
-header {
+h1 {
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+
+/* elementi comuni */
+.container-big {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    border: dotted 2px black;
+    min-height: 100px;
+
+    /* test */
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+
+    padding: 12px 16px;
+
+    text-decoration: none;
+
+    color: white;
+    background-color: #0061ff;
+}
+
+/* fine elementi comuni */
+
+
+
+
+
+/* navbar */
+nav {
+    height: 80px;
+    /* test */
+
     display: flex;
     justify-content: space-between;
-    padding: 5px 5px 10px 10px;
-    position: fixed;
-    width: 100% ;
+    align-items: center;
+
+    padding: 20px;
+
     background-color: white;
 }
+/* fine navbar */
 
-header nav{
-    gap: 12px;
+
+/* header */
+header {
+    background-color: #b4d0e7;
+
+    /* padding-top: 100px; */
+
+    margin-bottom: 150px;
+}
+
+header .container-big {
+    position: relative;
+    bottom: -60px;
+}
+
+header .row {
     display: flex;
-    width: 100%;
 }
 
-header nav ul{
+header .row .text {
     display: flex;
-    align-items: center;
-    list-style-type: none;
-    justify-content: space-between;
-    width: 100%;
-}
-
-
-
-main{
-    margin: 100px 0 100px 0;
-    height: 70vh;
-    
-
-}
-
-
-
-
-
-
-.section {
-    background-color: rgb(78, 136, 217);
-    border: 1px solid black;
-    display: flex;
-    margin-bottom: 100px;
-  
-
-   
-    
-}
-
-
-
-.uno {
-    background-color: rgb(46, 174, 243);
-    display: flex;
-    border: 1px dashed black;
-}
-
-.due {
-    background-image: url(img/jumbo.png);
-    min-width: 40%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.container{
-    display:  flex;
-    justify-content: center;
-    flex-wrap: wrap; 
-    width: 80%;
-    margin: 0px auto;
-
-   
-
-
-
-}
-
-.schema{
-    gap: 50px;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 100px;
-
-}
-
-.column{
-    border: 1px solid black;
-    width: 100%;
-}
-
-
-.section-middle{
-   
-    padding:  100px;
-    border: 1px solid black;
-    display: flex;
-   
-    margin-bottom: 100px;
-}
-
-.uno-middle{
-    background-image: url(img/partner.png);
-    min-width: 60%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.due-middle{
-   
-    display: flex;
-    border: 1px dashed black;
-}
-
-
-.schema-2, .schema-3{
-    display: flex;
-    
-}
-
-.business{
-    margin-bottom: 100px;
-}
-
-
-.img-links{
-    display: flex;
-    justify-content: center;
-    border: 1px red solid;
-   
-}
-
-
-.img-bottom:hover {
-    cursor: pointer;
-    
-}
-
-.section-bottom{
-    border: 1px solid black;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction:column ;
-}
-
-
-.title-section{
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-    flex-direction:column ;
-
-}
-
-.first-part{
-    display: flex;
-    justify-content: flex-start;
     flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+
+    width: 30%;
 }
+
+header .row .text .fa-solid {
+    margin-top: 40px;
+    font-size: 46px;
+}
+
+header .row .image {
+    width: 70%;
+
+}
+
+header .row .image img {
+    width: 100%;
+}
+
+/* fine header */
+
+
+/* business plans */
+
+#business-plans {
+    margin-bottom: 150px;
+}
+
+#business-plans .row  {
+    display: flex;
+    justify-content: space-between;
+}
+
+#business-plans .row .plan {
+    border: dashed 1px red;
+    min-height: 100px;
+    /* test */
+    
+    width: calc(100% / 3 - 50px / 3 * 2)
+}
+
+/* fine business plans */
+
+
+/* get in contact */
+
+#get-in-contact {
+    display: flex;
+}
+
+#get-in-contact .image {
+    height: 200px;
+    border: 1px dashed black;
+    /* test */
+    width: 60%;
+}
+
+#get-in-contact .text {
+    height: 200px;
+    border: 1px dashed black;
+    /* test */
+    width: 40%;
+}
+/* fine get in contact */
+
+
+/* più operazioni */
+#more-operations {
+    background-color: lightpink;
+
+    /* test */
+}
+
+#more-operations .row  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+#more-operations .row .col {
+    height: 200px;
+    border: dotted 2px red;
+    /* test */
+
+    width: calc(100% / 3 - 50px / 3 * 2);
+}
+
+/* fine più operazioni */
