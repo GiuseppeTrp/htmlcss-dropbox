@@ -23,7 +23,7 @@ h1 {
 }
 
 .container {
-    border: dotted 2px black;
+    
     min-height: 100px;
 
     /* test */
@@ -179,7 +179,7 @@ input[type=radio] {
     font-size: 15px;
     font-style: normal;
 }
-.user{
+.icon{
     display: flex;
     justify-content: center;
    
@@ -229,7 +229,45 @@ p a{
 
 }
 
+.plan-bottom{
+   
+    border: 1px solid black;
+    margin: 30px 0;
+}
 
+.team:before{
+    content:"\f1ad";
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 15px;
+    font-style: normal;
+
+}
+.enterprise{
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+}
+
+
+.btn-contact {
+    padding-top:40px;
+    padding-left: 100px ;
+   
+    
+}
+.content-team{
+    display: flex;
+    justify-content: row;
+
+
+}
 /* fine business plans */
 
 
