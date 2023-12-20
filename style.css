@@ -86,7 +86,10 @@ a{
 
 /* navbar */
 nav {
+    position: fixed;
     height: 80px;
+    width: 100%;
+    z-index: 1;
     /* test */
 
     display: flex;
@@ -97,6 +100,28 @@ nav {
 
     background-color: white;
 }
+
+nav div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+nav a{
+    text-decoration: none;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+   
+
+
+}
+
 /* fine navbar */
 
 
@@ -262,6 +287,10 @@ p a{
     width: 70%;
 }
 
+.enterprise h3{
+    padding-bottom: 10px;
+}
+
 
 .btn-contact {
     padding-top:40px;
@@ -371,5 +400,21 @@ p a{
 
 .col-schema h3{
     padding: 30px  0;
+}
+
+
+.col-schema-bottom{
+     display: flex ;
+     justify-content: center;
+     padding-top: 150px;
+
+}
+
+.col-schema-bottom p{
+    padding-top: 50px;
+}
+
+.schema-title{
+    width: 40%;
 }
 /* fine più operazioni */
