@@ -412,6 +412,7 @@ p a{
 
 .col-schema-bottom p{
     padding-top: 50px;
+    padding-bottom: 110px;
 }
 
 .schema-title{
@@ -423,10 +424,15 @@ p a{
 
 .container-squares{
     display: flex;
+    background-color: rgb(241, 241, 241);
+   
+   
+
     
 }
 
-#squares{
+
+.squares{
     width: calc(100% / 3);
     height: calc(100vw / 3 );
     display:flex;
@@ -448,4 +454,32 @@ p a{
 
 .first-squares img{
     object-fit: fill;
+}
+
+
+
+#designit-square{
+    width: calc(100% / 3);
+    padding: 40px;
+    
+   
+    display:flex;
+    flex-wrap: wrap;
+    
+ 
+}
+#designit-block{
+    width: 60%;
+}
+
+#designit-square img {
+    padding-bottom: 30px;
+   
+   
+}
+
+
+
+#designit-square p{
+    font-size: smaller;
 }
