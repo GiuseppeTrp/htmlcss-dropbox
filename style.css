@@ -34,8 +34,9 @@ h1 {
 
 .btn {
     display: inline-block;
+    height: 40px;
 
-    padding: 12px 16px;
+    padding:10px;
 
     text-decoration: none;
 
@@ -43,6 +44,33 @@ h1 {
     background-color: #0061ff;
 }
 
+
+.plan{
+    padding-bottom: 200px;
+}
+.btn-plan{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+a{
+    font-size: small;
+}
+
+.bottom-column{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-column{
+    line-height: 100%;
+
+}
 /* fine elementi comuni */
 
 
@@ -118,10 +146,11 @@ header .row .image img {
 #business-plans .row  {
     display: flex;
     justify-content: space-between;
+    min-height: 500px;
 }
 
 #business-plans .row .plan {
-    border: dashed 1px red;
+    border: solid 1px black;
     min-height: 100px;
     /* test */
     
@@ -140,7 +169,70 @@ input[type=radio] {
     width: 20px;
  
 }
+
+.icon-user::before{
+    content:"\f007";
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 15px;
+    font-style: normal;
+}
+.user{
+    display: flex;
+    justify-content: center;
+   
+}
+.plan-content{
+    padding: 30px 50px 0 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icon-folder:before{
+    content:"\f07b";
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.icon-share:before{
+    content:"\f1e0";
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 15px;
+    font-style: normal;
+}
+
+p a{
+    color: rgb(0, 166, 255);
+}
+
+.icon-check:before{
+    content:"\f00c";
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 15px;
+    font-style: normal;
+    color: rgb(0, 166, 255);
+
+}
+
+
 /* fine business plans */
+
+
 
 
 /* get in contact */
