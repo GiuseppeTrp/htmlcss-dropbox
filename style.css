@@ -21,6 +21,26 @@ h1 {
     margin-bottom: 60px;
 }
 
+li:hover{
+
+  
+    cursor: pointer;
+    text-decoration:dashed green;
+    color: rgb(0, 166, 255);
+    
+     
+  }
+
+  li a:hover{
+
+  
+    cursor: pointer;
+    text-decoration:dashed green;
+    color: rgb(0, 166, 255);
+    
+     
+  }
+
 
 /* elementi comuni */
 .container-big {
@@ -51,6 +71,16 @@ h1 {
 
     color: white;
     background-color: #0061ff;
+}
+
+.btn:hover{
+   
+    filter: brightness(300%);
+    color: white;
+    background-color: #021a41;
+    border:solid 1px   white;
+
+   
 }
 
 
@@ -114,6 +144,16 @@ nav a{
     
 }
 
+a:hover{
+
+  
+    cursor: pointer;
+    text-decoration:dashed green;
+    color: rgb(0, 166, 255);
+    
+     
+  }
+
 nav ul{
     display: flex;
     gap: 30px;
@@ -123,6 +163,8 @@ nav ul{
 
 
 }
+
+
 
 /* fine navbar */
 
@@ -422,6 +464,9 @@ p a{
 }
 /* fine più operazioni */
 
+
+
+
 /* inizio squares */
 
 .container-squares{
@@ -489,6 +534,9 @@ p a{
 
 /* fine  squares */
 
+
+
+
 /* test gratis */
 
 #test-gratis{
@@ -529,12 +577,16 @@ p a{
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 100px 0;
    
 }
 
 .container-faq li {
-  
+    gap: 200px;
+    padding: 50px 0;
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-faq a{
@@ -543,10 +595,10 @@ p a{
     text-decoration: none;
 
 }
-.container-faq #faq{
-    width: 80%;
-}
 
+#faq h2{
+    padding-bottom: 40px;
+}
 .icon-chevron:before{
     content: "\f078";
     padding-bottom: 5px;
@@ -556,6 +608,8 @@ p a{
     font-size: 15px;
     font-style: normal;
 }
+
+
 
 
 
